@@ -27,6 +27,7 @@ numSecreto: number = this.numAleatorio(0,10);
       } else if (this.numSecreto > this.num){
         this.mayorMenor = 'mayor de';
       } else{
+        
         this.mayorMenor = '';
       }
     }
